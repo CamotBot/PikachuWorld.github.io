@@ -1,0 +1,106 @@
+body {
+	background-color: #33ceff;
+	font-family: roboto, arial, sans-serif, helvetica;
+	background-image: url('../images/Background.png');
+	background-size: cover;
+	color: #f6ff89;
+	margin: 0;
+}
+
+#header {
+	background-color: #00e4ff;
+	text-align: center;
+	color: #f6ff89;
+	padding: 1px;
+	box-shadow: 5px 1px 20px 10px rgb(0, 0, 0, 0.2);
+}
+
+#footer {
+	clear: both;
+	padding: 15px;
+	background-color: #7c52ff;
+	color: white;
+	text-align: right;
+}
+
+hr {
+	background-color: white;
+	height: 1px;
+	border: none;
+} 
+
+.dropbtn {
+  background-color: pink;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: url('../images/Pikachu Cursor.png'), auto;
+  border-radius: 10px;
+}
+
+#Hover-arrow {display:none;}
+
+.dropbtn:hover #Hover-arrow {display:inline;}
+
+.dropdown:hover #Hover-arrow {display:inline;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 8px;
+}
+
+.dropdown-links {
+  display: none;
+  overflow: auto;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-links a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  cursor: url('../images/Pikachu Cursor Click.png'), auto;
+}
+
+.dropdown-links a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-links {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #ff6ceb;}
+
+.Container {
+  cursor: url('../images/Pikachu Cursor.png'), auto;
+  background: rgba(0, 200, 227, 0.3);
+}
+
+.Content {
+	margin: 8px;
+}
+
+.Content a {
+  cursor: url('../images/Pikachu Cursor Click.png'), auto;
+  text-decoration: none;
+}
+
+.Content a:link {
+  text-decoration: none;
+}
+
+.Content a:visited {
+  text-decoration: none;
+}
+
+.Content a:hover {
+  text-decoration: underline;
+}
+
+.Content a:active {
+  text-decoration: underline;
+}
